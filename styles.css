@@ -1,0 +1,284 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #FFF6F4;
+}
+
+.navbar {
+  padding: 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content:flex-end;
+  gap: 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 40px;
+  font-size: 18px;
+
+}
+.nav__btn {
+  padding: 10px 10px;
+  border-radius: 6px;
+  border: 0;
+  outline: 0;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+  background-image: linear-gradient(
+  to right,
+  #D2122E 0%,
+  #E52B50 51%,
+  #D2122E 100%
+
+
+
+    );
+
+}
+
+.nav__btn:hover {
+  cursor: pointer;
+  padding: 12px 12px;
+  border-radius: 8px;
+}
+
+.nav__btn a:hover {
+    cursor: pointer;
+}
+
+.header__section {
+  height: 75vh;
+  background-image: url(zomatobanner.avif);
+  background-size: cover;
+
+}
+
+.banner__info {
+  width: 100%;
+ margin: auto;
+ text-align: center;
+ color: #fff;
+ margin-top: 100px;
+}
+
+.banner__info h1{
+  font-size: 80px;
+
+}
+
+.banner__info h3 {
+  width: 45%;
+  margin: auto;
+  font-size: 28px;
+  font-weight: 400;
+
+}
+
+
+/*hero section */
+
+.main__section {
+  margin-top: 30px;
+}
+.hero__section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width:90%;
+  margin: auto;
+}
+
+.hero__description {
+  font-size: 50px;
+  font-weight: 600;
+  width: 40%;
+  margin-left: 100px;
+}
+
+.hero__image__container {
+  width: 600px;
+  height: 400px;
+margin-right: 70px;
+}
+
+.hero__img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  border: 0;
+  outline:0;
+
+}
+
+/**Explore menu section **/
+.explore__menu__section {
+  margin-top: 60px;
+}
+
+.explore__heading {
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.explore__menu__container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+justify-content: center;
+  gap: 40px;
+
+}
+
+.foodcard {
+  border: 4px solid white;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.foodcard:hover{
+  border: 3px solid black;
+  box-shadow: 0px 0px 10px black;
+  cursor: pointer;
+}
+
+.foodcard__img__container {
+  width: 400px;
+  height: 280px;
+}
+
+.foodimg {
+  width: 100%;
+  height: 100%;
+}
+
+.foodcard__description__container {
+  margin: 10px 0;
+}
+
+.foodcard__description__container h3{
+  margin-bottom: 10px;
+}
+
+/**Location section**/
+.location__section {
+  margin-top: 50px;
+}
+
+.location__title {
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.location__description {
+  font-size: 22px;
+  width:75%;
+  margin: auto;
+}
+
+.city__btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+  padding: 10px 60px;
+  font-size: 24px;
+  color: black;
+  background-color: white;
+  border-radius: 8px;
+  border: 2px solid #EEEDED;
+  outline: 0;
+}
+
+.city__resturant__section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  height: 70px;
+  padding: 0 20px;
+    font-size: 24px;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid #EEEDED;
+    outline: 0;
+}
+
+.city__section {
+  margin-top: 30px;
+
+
+  margin-left: 130px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+
+
+}
+
+.city__resturant__section:hover {
+  padding: 5px 25px;
+  border: 2px solid black;
+  box-shadow: 0px 0px 10px black;
+  cursor: pointer;
+
+}
+
+/**Footer section **/
+
+
+.footer__section {
+ margin-top: 40px;
+}
+ .footer__container {
+   background-color: #E4DCCF;
+   height: 50vh;
+
+ }
+
+.footer__logo{
+  width: 200px;
+  height: 50px;
+}
+
+.zomato__footer__logo {
+
+  width: 100%;
+  height: 100%;
+  margin-left: 124px;
+  margin-top: 15px;
+}
+
+.footer__description {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.description__container {
+  margin: 40px 80px;
+}
+
+.description__container ul>li {
+  list-style: none;
+  margin:10px 0;
+  color:#696969;
+}
+
+.description__container ul>li:hover {
+  color: white;
+  text-shadow: 0 0 20px #fff;
+}
